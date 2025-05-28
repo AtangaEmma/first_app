@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import StreamingResponse
-import matplotlib.pyplot as plt
-import matplotlib.pyplot as plt
+from sklearn.decomposition import PCA
+from sklearn import datasets
 
 app = FastAPI()
 
